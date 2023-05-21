@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>Maqueta formulario</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilosformulario.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="nav">
+            <header>
+                <img src="../img/Logoformulario.png" class="img">
+                <h1 class="none">Eres más que bienvenido</h1>
+                <h1 class="none-1">Un lugar en tu corazón</h1>
+            </header>
+        </div>
+        <form class="contenedor-1">
+            <div class="part-0">
+                <h5>Regístrate</h5>
+            </div>
+            <div class="part-1">
+                <label for="typodoc">Tipo de documento</label><br>
+                <select name="typodoc" id="typodoc" class="input">
+                    <option value="0">Escoja una opcion</option>
+                    <option value="1">T.I</option>
+                    <option value="2">C.C</option>
+                    <option value="3">C.E</option>
+                </select>
+            </div>
+            <div class="part-2">
+                <label for="Number">Numero de documento</label><br>
+                <input type="numer" id="number" name="number" class="input">
+            </div>
+            <div class="part-1">
+                <label for="name">Nombres</label><br>
+                <input type="text" id="name" name="name" class="input">
+            </div>
+            <div class="part-2">
+                <label for="lastname">Apellidos</label><br>
+                <input type="text" id="lastname" name="lastname" class="input">
+            </div>
+
+            <div class="part-1">
+                <label for="nacimiento">Fecha de nacimiento</label><br>
+                <input type="date" id="nacimiento" name="nacimiento" class="input">
+            </div>
+            <div class="part-2">
+                <label for="gender">Genero</label><br>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male" class="radio">Hombre</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="male" class="radio">Mujer</label>
+                <input type="radio" name="gender" value="other" id="other">
+                <label for="male">Otro</label>
+            </div>
+            <div class="part-1">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" class="input">
+            </div>
+            <div class="part-2">
+                <label for="Telefono">Telefono de contacto</label><br>
+                <input type="tel" id="Telefono" name="Telefono" class="input">
+            </div>
+            <div class="part-1">
+                <label for="typodoc">País de origen</label><br>
+                <select name="typodoc" id="typodoc" class="input">
+                    <option>Colombia</option>
+                    <option>Mexico</option>
+                    <option>Argentina</option>
+                </select>
+            </div>
+            <div class="part-2">
+                <label for="foto">Foto</label><br>
+                <input type="file" id="foto" name="foto" class="input-1">
+            </div>
+            <div class="part-1">
+                <label for="contra">Contraseña</label><br>
+                <input type="password" id="contra" name="contra" class="input">
+            </div>
+            <div class="part-2">
+                <label for="contra-1">Confirmar contraseña</label><br>
+                <input type="password" id="contra-1" name="contra-1" class="input">
+            </div>
+            
+            <div class="part-3 center-1">
+                <input type="checkbox" id="Terminos" name="Terminos">
+                <label for="Terminos">Acepto Terminos y Condiciones</label>
+                <div class="center">
+                    <button type="submit" class="boton-enviar part-3 input-2">Ingresar</button>
+            </div>
+            <div class="center">
+            <p>Ir al<a href="Dashboard.html"> Dashboard</a></p>
+        </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

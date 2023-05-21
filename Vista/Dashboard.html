@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+        <title>Maqueta dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/estilosdashboard.css">
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="nav center-2">
+                <header>
+                    <div class="part-1 position-0">
+                    <img src="../img/Logoformulario.png" class="img none">
+                    <div>
+                    <img src="../img/LOGO-removebg-preview (1).png" class="none-1"></div>
+                    <img src="../img/user1.png" class="none-1 img">
+                    <h2 class="h2 none" >Usurio</h2>
+                    <h4 class="h4 none">correousuario@gmail.com</h4></div>
+                </header>
+                <div class="menu">
+                    <a href="index.html " class="item"><i class="fa-solid fa-bed"></i>  <span class="none">Habitaciones</span></a>
+                    <a href="ubicanos.html" class="item"><i class="fa-solid fa-bell"></i>  <span class="none">Reservas</span></a>
+                    <a href="opiniones.html" class="item"><i class="fa-solid fa-bed"></i>  <span class="none">Habitaciones</span> </a>
+                    <a href="opiniones.html" class="item"><i class="fa-solid fa-bell"></i>    <span class="none">Habitaciones</span></a>
+                    <a href="Vista/login.html" class="item colorfondo" style="margin-top:25%;background-color: rgba(1, 10, 52, 0.838);"><i class="fa-solid fa-door-open"></i> <span class="none">Cerrar Sesión</span></span></a>
+                </div>
+            </div>
+            <form class="contenedor-1">
+                <div class="part-0">
+                    <h5>Regístrate</h5>
+                </div>
+                <div class="part-4 center">
+                    <img src="../img/user1.png" class="img">
+                </div>
+                <div class="part-4 center" style="background-color:rgb(0, 119, 255);margin-right:10%;">
+                    <a ><img src="../img/subir.png" width="50" height="30"></a>
+                </div>
+                <div class="part-4 center" style="background-color:black;margin-right:10%;margin-top: 5%;">
+                    <a  style="color:aliceblue;text-align: center;" class="fondo">Cambiar contraseña</a>
+                </div>
+                <div class="part-1 position-1">
+                    <label for="typodoc">Tipo de documento</label><br>
+                    <select name="typodoc" id="typodoc" class="input">
+                        <option value="0">Escoja una opcion</option>
+                        <option value="1">T.I</option>
+                        <option value="2">C.C</option>
+                        <option value="3">C.E</option>
+                    </select>
+                </div>
+                <div class="part-2 position-2">
+                    <label for="Number">Numero de documento</label><br>
+                    <input type="numer" id="number" name="number" class="input">
+                </div>
+                <div class="part-1 position-3">
+                    <label for="name">Nombres</label><br>
+                    <input type="text" id="name" name="name" class="input">
+                </div>
+                <div class="part-2 position-4">
+                    <label for="lastname">Apellidos</label><br>
+                    <input type="text" id="lastname" name="lastname" class="input">
+                </div>
+    
+                <div class="part-1">
+                    <label for="nacimiento">Fecha de nacimiento</label><br>
+                    <input type="date" id="nacimiento" name="nacimiento" class="input">
+                </div>
+                <div class="part-2">
+                    <label for="typodoc">País de origen</label><br>
+                    <select name="typodoc" id="typodoc" class="input">
+                        <option>Colombia</option>
+                        <option>Mexico</option>
+                        <option>Argentina</option>
+                    </select>
+                </div>
+                <div class="part-1">
+                    <label for="gender">Genero</label><br>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male" class="radio">Hombre</label>
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label for="male" class="radio">Mujer</label>
+                    <input type="radio" name="gender" value="other" id="other">
+                    <label for="male">Otro</label>
+                </div>
+                <div class="part-2">
+                    <label for="Telefono">Telefono de contacto</label><br>
+                    <input type="tel" id="Telefono" name="Telefono" class="input" >
+                </div>
+                <div class="part-1">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" class="input">
+                </div>
+                <div class="part-1">
+                    <button type="submit" class="boton-enviar part-3 input-3 ">Actualizar</button>
+            </div>
+                <div class="part-1">
+                    <label for="contra">Contraseña</label><br>
+                    <input type="password" id="contra" name="contra" class="input">
+                </div>
+                <div class="part-2">
+                    <label for="contra-1">Confirmar contraseña</label><br>
+                    <input type="password" id="contra-1" name="contra-1" class="input">
+                </div>
+                
+                <div class="part-1 ">
+                        <button type="submit" class="boton-enviar input-3">Ingresar</button>
+                </div>
+
+                </div>
+            </form>
+        </div>
+    </body>
+    
+    </html>

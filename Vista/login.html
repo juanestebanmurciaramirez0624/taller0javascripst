@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Maqueta Login</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estiloslogin.css">
+</head>
+
+<body>
+    <div>
+    </div>
+    <div class="container">
+        <form action="" method="post" class="form">
+            <div>
+                <img src="../img/Logoformulario.png" class="logimg">
+            </div>
+            <div class="center">
+                <img src="https://cdn-icons-png.flaticon.com/512/16/16363.png" class="logimg1">
+            </div>
+            <label for="user">Usuario</label>
+            <input type="text" class="form-control" id="user" name="user" placeholder="Usuario" required autofocus
+                pattern="[a]\s[a][A-Za-z][{2,40}">
+            <label for="password">contraseña</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required
+                pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$">
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+            <p>¿No tiene cuenta? <a href="formulario.html">Registrarse</a></p>
+            <a href="#">¿Olvido su contraseña?</a>
+        </form>
+    </div>
+    <div class="container">
+        <a href="../index.html">Volver</a>
+    </div>
+</body>
+
+</html>
